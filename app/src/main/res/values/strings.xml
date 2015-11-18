@@ -7,6 +7,4 @@
     <string name="forgot_pass">Forgot password</string>
     <string name="email">EMAIL</string>
     <string name="register_Btn">Register</string>
-    <string name="title_activity_register">register</string>
-    <string name="title_activity_test">test</string>
 </resources>
