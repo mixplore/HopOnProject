@@ -56,7 +56,7 @@
             android:layout_marginBottom="20dp"
             android:background="#ffffff"
             android:hint="@string/password" />
-
+ 
 
         <Button
             android:id="@+id/reg_BTN"
