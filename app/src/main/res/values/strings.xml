@@ -7,4 +7,10 @@
     <string name="forgot_pass">Forgot password</string>
     <string name="email">EMAIL</string>
     <string name="register_Btn">Register</string>
+    <string name="registered_email_ID">Registered email ID</string>
+    <string name="submit">Submit</string>
+    <string name="code">Code</string>
+    <string name="enter_the_code">Enter the code recievend</string>
+    <string name="new_pass">New password</string>
+    <string name="enter_new_pass">Enter your new password</string>
 </resources>

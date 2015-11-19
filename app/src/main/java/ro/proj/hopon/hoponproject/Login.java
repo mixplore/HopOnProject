@@ -7,11 +7,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class Login extends AppCompatActivity {
 
     private static Button button_login;
+    private static TextView register_clickable;
+    private static TextView fgt_pass_clickable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,26 @@ public class Login extends AppCompatActivity {
         button_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Homepage.class);
+                Intent intent = new Intent(getApplicationContext(), Homepage.class);
+                startActivity(intent);
+            }
+        });
+
+
+        register_clickable = (TextView) findViewById(R.id.register_TV);
+        register_clickable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1= new Intent(getApplicationContext(),Register.class);
+                startActivity(intent1);
+            }
+        });
+
+        fgt_pass_clickable = (TextView) findViewById(R.id.fgt_pass_TV);
+        fgt_pass_clickable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Forgotpass.class);
                 startActivity(intent);
             }
         });
